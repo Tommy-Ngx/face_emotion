@@ -10,7 +10,7 @@ This is a small application for expression classification built using Tensorflow
 
 First of all you need to have `angular-cli`. The method of running locally is to cd to the project directory, run `ng serve`, and then visit `localhost:4200/` in the browser.
 
-## Bale
+## How to build
 
 Run `ng build` to build the project directly. This will generate the target website in the `dist/` directory. Add the `--prod` tag to build the page for deployment.
 
