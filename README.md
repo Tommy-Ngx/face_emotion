@@ -3,7 +3,7 @@
 
 Please find the original link [here](https://github.com/moevis/what-is-my-girlfriend-thinking)
 
-Let's have fun in this link [here](https://github.com/Tommy-Ngx/face_emotion)
+Let's have fun in this link [here](https://tommy-ngx.github.io/face_emotion/)
 
 This also applies to boyfriends! ! !
 
