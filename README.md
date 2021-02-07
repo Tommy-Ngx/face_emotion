@@ -2,6 +2,8 @@
 
 Original Link: Please find this in this [link](https://github.com/moevis/what-is-my-girlfriend-thinking)
 
+Let's have fun at this [link](https://tommy-ngx.github.io/face_emotion/)
+
 This is also working to boyfriends and any friends! ! !
 
 This is a small application for expression classification built using Tensorflow.js and Angular.
