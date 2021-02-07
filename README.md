@@ -1,17 +1,19 @@
 # What Is My Girlfriend Thinking ?
 
-注意！这同样也适用于男朋友！！！
+Original Link: Please find this in this [link](https://github.com/moevis/what-is-my-girlfriend-thinking)
 
-这是使用 Tensorflow.js 和 Angular 搭建的用于表情分类的小应用。
+This is also working to boyfriends and any friends! ! !
 
-## 运行
+This is a small application for expression classification built using Tensorflow.js and Angular.
 
-首先你要有 `angular-cli` 。本地运行的方法是 cd 到工程目录下，运行 `ng serve`，然后在浏览器中访问 `localhost:4200/` 就可以了
+## Run
 
-## 打包
+First of all you need to have `angular-cli`. The method of running locally is to cd to the project directory, run `ng serve`, and then visit `localhost:4200/` in the browser.
 
-运行 `ng build` 直接构建项目. 这将在 `dist/` 目录下产生目标网站. 添加 `--prod` 标记可构建用于部署的页面。
+## Bale
 
-## 玩法
+Run `ng build` to build the project directly. This will generate the target website in the `dist/` directory. Add the `--prod` tag to build the page for deployment.
 
-玩法很简单，如果你的电脑有摄像头的话，点击『开启摄像头』后，你可以看到摄像头捕捉的图像。点击中间的类别，你可以录入相应图像，在训练完毕后，摄像头会实时分析图像，并给出最大的类别概率。你可以让你的女朋友来录几张图片，然后下回你女朋友摆出这个表情后就知道她在想什么啦！！！
+## How to play
+
+The gameplay is very simple. If your computer has a camera, click "Turn on the camera" and you can see the image captured by the camera. Click the middle category, you can input the corresponding image. After the training is completed, the camera will analyze the image in real time and give the maximum category probability. You can ask your girlfriend to record a few pictures, and the next time your girlfriend puts on this expression, she will know what she is thinking! ! ! 
