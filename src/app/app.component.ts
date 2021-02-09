@@ -34,10 +34,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.categories = [];
-    this.categories.push(new Category('开心', this.imageUpper, 0, 'happy'));
-    this.categories.push(new Category('难过', this.imageUpper, 1, 'sad'));
-    this.categories.push(new Category('吃醋', this.imageUpper, 2, 'jealous'));
-    this.categories.push(new Category('星星眼', this.imageUpper, 3, 'stars'));
+    this.categories.push(new Category('Happy', this.imageUpper, 0, 'happy'));
+    this.categories.push(new Category('Sad', this.imageUpper, 1, 'sad'));
+    this.categories.push(new Category('Jealous', this.imageUpper, 2, 'jealous'));
+    this.categories.push(new Category('Stars', this.imageUpper, 3, 'stars'));
     this.model = new TFModel();
   
     this.hiddenCanvas = document.createElement('canvas');
@@ -51,7 +51,7 @@ export class AppComponent implements OnInit {
     this.training = false;
     this.model_ready = false;
     this.result = {
-      name: '结果',
+      name: 'Result',
       prob: 100,
       className: '',
     };
@@ -124,7 +124,7 @@ export class AppComponent implements OnInit {
       return;
     }
     if (!this.video_on) {
-      alert('先点击左侧『开启摄像头』哦！');
+      alert('Click "Turn on the camera" on the left first！');
       return;
     }
     if (!this.timer) {
